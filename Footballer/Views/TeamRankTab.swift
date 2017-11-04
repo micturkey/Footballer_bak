@@ -97,6 +97,9 @@ class TeamRankTab: UIView {
             //输出下载文件原来的存放目录
             //            print("location:\(location)")
             //location位置转换
+            
+            //此处添加国行网络权限&无网络情况下处理
+            
             let locationPath = location!.path
             let caches:String = NSHomeDirectory() + "/Library/Caches/" + self.league! + ".json"
             //创建文件管理器
