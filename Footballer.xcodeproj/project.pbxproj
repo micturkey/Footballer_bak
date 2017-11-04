@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE99B708338125BD0F26043C /* Pods_Footballer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653014A6A8699F10AAFE896A /* Pods_Footballer.framework */; };
+		F320AACB1F988250004A63EB /* TeamRankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F320AAC91F988250004A63EB /* TeamRankCell.swift */; };
+		F320AACC1F988250004A63EB /* TeamRankTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F320AACA1F988250004A63EB /* TeamRankTab.swift */; };
+		F320AACE1F988B6C004A63EB /* TeamRankHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F320AACD1F988B6C004A63EB /* TeamRankHeader.swift */; };
+		F3291D811F9AFB1C005E62BA /* ElegantSlideMenuDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3291D7F1F9AFB1C005E62BA /* ElegantSlideMenuDto.swift */; };
+		F3291D821F9AFB1C005E62BA /* ElegantSlideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3291D801F9AFB1C005E62BA /* ElegantSlideMenuView.swift */; };
+		F3291D841F9AFB35005E62BA /* ElegantSlideMenuView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F3291D831F9AFB35005E62BA /* ElegantSlideMenuView.bundle */; };
 		F3889C141F91EF7400053144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3889C131F91EF7400053144 /* AppDelegate.swift */; };
-		F3889C161F91EF7400053144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3889C151F91EF7400053144 /* ViewController.swift */; };
 		F3889C191F91EF7400053144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3889C171F91EF7400053144 /* Main.storyboard */; };
 		F3889C1B1F91EF7400053144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3889C1A1F91EF7400053144 /* Assets.xcassets */; };
 		F3889C1E1F91EF7400053144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3889C1C1F91EF7400053144 /* LaunchScreen.storyboard */; };
 		F3889C291F91EF7400053144 /* FootballerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3889C281F91EF7400053144 /* FootballerTests.swift */; };
 		F3889C341F91EF7400053144 /* FootballerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3889C331F91EF7400053144 /* FootballerUITests.swift */; };
+		F3889C421F91EF9500053144 /* TeamRankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3889C411F91EF9500053144 /* TeamRankModel.swift */; };
+		F3889C481F921FDA00053144 /* TeamRankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3889C471F921FDA00053144 /* TeamRankViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		653014A6A8699F10AAFE896A /* Pods_Footballer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Footballer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0722C6143326EB415D67DA7 /* Pods-Footballer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Footballer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Footballer/Pods-Footballer.debug.xcconfig"; sourceTree = "<group>"; };
+		E8964DB59CB8AF2E82F3017E /* Pods-Footballer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Footballer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Footballer/Pods-Footballer.release.xcconfig"; sourceTree = "<group>"; };
+		F320AAC91F988250004A63EB /* TeamRankCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamRankCell.swift; sourceTree = "<group>"; };
+		F320AACA1F988250004A63EB /* TeamRankTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamRankTab.swift; sourceTree = "<group>"; };
+		F320AACD1F988B6C004A63EB /* TeamRankHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRankHeader.swift; sourceTree = "<group>"; };
+		F3291D7F1F9AFB1C005E62BA /* ElegantSlideMenuDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElegantSlideMenuDto.swift; sourceTree = "<group>"; };
+		F3291D801F9AFB1C005E62BA /* ElegantSlideMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElegantSlideMenuView.swift; sourceTree = "<group>"; };
+		F3291D831F9AFB35005E62BA /* ElegantSlideMenuView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ElegantSlideMenuView.bundle; sourceTree = "<group>"; };
 		F3889C101F91EF7400053144 /* Footballer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Footballer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3889C131F91EF7400053144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3889C151F91EF7400053144 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F3889C181F91EF7400053144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3889C1A1F91EF7400053144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3889C1D1F91EF7400053144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +63,8 @@
 		F3889C2F1F91EF7400053144 /* FootballerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootballerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3889C331F91EF7400053144 /* FootballerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballerUITests.swift; sourceTree = "<group>"; };
 		F3889C351F91EF7400053144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3889C411F91EF9500053144 /* TeamRankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRankModel.swift; sourceTree = "<group>"; };
+		F3889C471F921FDA00053144 /* TeamRankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRankViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE99B708338125BD0F26043C /* Pods_Footballer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +93,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CCC33859736E0056FCBB56A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				653014A6A8699F10AAFE896A /* Pods_Footballer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1864052204B507B6546BE97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0722C6143326EB415D67DA7 /* Pods-Footballer.debug.xcconfig */,
+				E8964DB59CB8AF2E82F3017E /* Pods-Footballer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3062BBD1FAE01E400E96889 /* ElegantSlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F3291D831F9AFB35005E62BA /* ElegantSlideMenuView.bundle */,
+				F3291D7F1F9AFB1C005E62BA /* ElegantSlideMenuDto.swift */,
+				F3291D801F9AFB1C005E62BA /* ElegantSlideMenuView.swift */,
+			);
+			path = ElegantSlideMenu;
+			sourceTree = "<group>";
+		};
+		F320AAC81F988239004A63EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F320AAC91F988250004A63EB /* TeamRankCell.swift */,
+				F320AACA1F988250004A63EB /* TeamRankTab.swift */,
+				F320AACD1F988B6C004A63EB /* TeamRankHeader.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F3889C071F91EF7400053144 = {
 			isa = PBXGroup;
 			children = (
+				F3062BBD1FAE01E400E96889 /* ElegantSlideMenu */,
 				F3889C121F91EF7400053144 /* Footballer */,
 				F3889C271F91EF7400053144 /* FootballerTests */,
 				F3889C321F91EF7400053144 /* FootballerUITests */,
 				F3889C111F91EF7400053144 /* Products */,
+				D1864052204B507B6546BE97 /* Pods */,
+				6CCC33859736E0056FCBB56A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +156,10 @@
 		F3889C121F91EF7400053144 /* Footballer */ = {
 			isa = PBXGroup;
 			children = (
+				F320AAC81F988239004A63EB /* Views */,
+				F3889C461F91FC1200053144 /* Controllers */,
+				F3889C451F91FBF100053144 /* Models */,
 				F3889C131F91EF7400053144 /* AppDelegate.swift */,
-				F3889C151F91EF7400053144 /* ViewController.swift */,
 				F3889C171F91EF7400053144 /* Main.storyboard */,
 				F3889C1A1F91EF7400053144 /* Assets.xcassets */,
 				F3889C1C1F91EF7400053144 /* LaunchScreen.storyboard */,
@@ -125,6 +186,22 @@
 			path = FootballerUITests;
 			sourceTree = "<group>";
 		};
+		F3889C451F91FBF100053144 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3889C411F91EF9500053144 /* TeamRankModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3889C461F91FC1200053144 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3889C471F921FDA00053144 /* TeamRankViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3889C381F91EF7400053144 /* Build configuration list for PBXNativeTarget "Footballer" */;
 			buildPhases = (
+				F5C103F4A36627311955CD41 /* [CP] Check Pods Manifest.lock */,
 				F3889C0C1F91EF7400053144 /* Sources */,
 				F3889C0D1F91EF7400053144 /* Frameworks */,
 				F3889C0E1F91EF7400053144 /* Resources */,
+				71F39B734E450A9BEE634603 /* [CP] Embed Pods Frameworks */,
+				890D49AADA1C2DF0FE6DAE95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3291D841F9AFB35005E62BA /* ElegantSlideMenuView.bundle in Resources */,
 				F3889C1E1F91EF7400053144 /* LaunchScreen.storyboard in Resources */,
 				F3889C1B1F91EF7400053144 /* Assets.xcassets in Resources */,
 				F3889C191F91EF7400053144 /* Main.storyboard in Resources */,
@@ -254,13 +335,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		71F39B734E450A9BEE634603 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Footballer/Pods-Footballer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Footballer/Pods-Footballer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		890D49AADA1C2DF0FE6DAE95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Footballer/Pods-Footballer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5C103F4A36627311955CD41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Footballer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F3889C0C1F91EF7400053144 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3889C161F91EF7400053144 /* ViewController.swift in Sources */,
+				F320AACC1F988250004A63EB /* TeamRankTab.swift in Sources */,
+				F320AACB1F988250004A63EB /* TeamRankCell.swift in Sources */,
 				F3889C141F91EF7400053144 /* AppDelegate.swift in Sources */,
+				F3291D811F9AFB1C005E62BA /* ElegantSlideMenuDto.swift in Sources */,
+				F3889C481F921FDA00053144 /* TeamRankViewController.swift in Sources */,
+				F3889C421F91EF9500053144 /* TeamRankModel.swift in Sources */,
+				F3291D821F9AFB1C005E62BA /* ElegantSlideMenuView.swift in Sources */,
+				F320AACE1F988B6C004A63EB /* TeamRankHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,14 +565,16 @@
 		};
 		F3889C391F91EF7400053144 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0722C6143326EB415D67DA7 /* Pods-Footballer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52ZXUL4T2U;
 				INFOPLIST_FILE = Footballer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.oDet.Footballer;
+				PRODUCT_BUNDLE_IDENTIFIER = org.oDet.Footballer1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,14 +582,16 @@
 		};
 		F3889C3A1F91EF7400053144 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8964DB59CB8AF2E82F3017E /* Pods-Footballer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52ZXUL4T2U;
 				INFOPLIST_FILE = Footballer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.oDet.Footballer;
+				PRODUCT_BUNDLE_IDENTIFIER = org.oDet.Footballer1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
